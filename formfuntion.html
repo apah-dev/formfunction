@@ -24,8 +24,8 @@
         height: 70px;
         align-items: center;
         margin-top: 50px;
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 60px;
+        margin-left: 60px;
       }
 
       .list {
@@ -71,34 +71,44 @@
         width: 20px;
       }
 
+      .logo {
+        width: 60px;
+      }
+
       .second-section {
         flex: 1;
         margin-left: 50px;
       }
 
       .search {
+        margin-left: 20px;
         padding-top: 10px;
-        padding-left: 5px;
+        padding-left: 15px;
         padding-right: 400px;
         padding-bottom: 10px;
         border-style: none;
         color: rgb(195, 195, 195);
         font-weight: 500;
+        font-size: 18px;
       }
 
       .third-section {
-        width: 300px;
+        width: 200px;
+        background-color: pink;
+        border: 2px solid black;
       }
 
       .fourth-section {
-        width: 100px;
+        width: 150px;
         margin-left: 8px;
+        background-color: pink;
+        border: 2px solid black;
       }
     </style>
   </head>
   <body>
     <div class="header">
-      <div class="first-section"><img src="logo-black.svg" /></div>
+      <div class="first-section"><img src="logo-black.svg" class="logo" /></div>
       <div class="second-section">
         <input text="text" placeholder="Search Formfunction" class="search" />
       </div>
@@ -113,7 +123,6 @@
         <a href="signin.html"><button class="sign-in">Sign in</button></a>
       </div>
     </div>
-
     <hr />
   </body>
 </html>
